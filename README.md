@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+1. Project Overview
+Book_A_Taxi is a high-performance, single-page application (SPA) built to streamline the urban transportation experience. Developed using React 19, the app features dynamic routing and a responsive, mobile-first design tailored for users on the go.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Architecture Write-Up
+The application follows a modular, component-based architecture to ensure scalability and ease of maintenance:
 
-## Available Scripts
+Frontend Framework: React 19, utilizing Functional Components and Hooks (useState, useEffect) for state management.
 
-In the project directory, you can run:
+Routing: React Router DOM manages seamless navigation between Home, About, Services, and Booking views without page reloads.
 
-### `npm start`
+Styling: Tailwind CSS provides a utility-first styling approach, ensuring a consistent yellow-and-black "Taxi" theme across all devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Asset Management: Organized directory structure separating Components (reusable UI) and Pages (route-specific views).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Project User Stories
+To guide development, the following user stories were implemented to ensure a user-centric experience:
 
-### `npm test`
+As a User, I want to navigate between different sections (Home, Services, Contact) so that I can learn about the company without the page refreshing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As a Rider, I want a clear "Book Now" interface so that I can quickly request a taxi in an emergency.
 
-### `npm run build`
+As a Customer, I want a responsive design that works perfectly on my smartphone while I am standing on a street corner.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As an Administrator, I want a clean code structure so that future features (like GPS tracking) can be integrated easily.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Project Git Repositories
+The source code and version history for this project are maintained on GitHub:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Main Repository: https://github.com/jcmartine/HarnessingGenAI.git
 
-### `npm run eject`
+Branching Strategy: The project utilizes a main branch for stable releases.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. How to Run
+Follow these steps to set up the development environment on your local machine:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Prerequisites
+Node.js (v18 or higher recommended)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm (Node Package Manager)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Installation and execution
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+git clone https://github.com/jcmartine/HarnessingGenAI.git
+2. Navigate into the directory:
+cd book_a_taxi
+3. Install dependencies:
+npm install
+4. Start the development server:
+npm start
+5. View the app:
+Open http://localhost:3000 in your browser.
